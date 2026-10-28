@@ -9,8 +9,9 @@ O LSZDev foi criado para dar contexto ao meu serviço e facilitar o primeiro con
 ## Serviços apresentados
 
 - **Landing pages:** páginas para apresentar negócios, produtos ou serviços, organizar informações importantes e orientar visitantes a entrar em contato.
-- **Desenvolvimento web e de softwares:** criação de experiências digitais responsivas, com estrutura e funcionalidades adequadas ao objetivo de cada projeto.
-- **Qualidade (QA):** revisão de navegação, links, formulários, comportamento e apresentação em diferentes tamanhos de tela.
+- **Desenvolvimento web:** criação de páginas e experiências digitais responsivas, com estrutura e funcionalidades adequadas ao objetivo do projeto.
+- **Desenvolvimento de softwares e sistemas:** aplicações web para organizar processos, informações e funcionalidades, incluindo produtos SaaS conforme o escopo de cada projeto.
+- **Qualidade (QA — Quality Assurance):** revisão de navegação, links, formulários, comportamento e apresentação em diferentes tamanhos de tela.
 
 ## Projetos
 
