@@ -1,10 +1,10 @@
 # LSZDev
 
-Portfólio pessoal de **Luis Henrique**, estudante do quarto período de Análise e Desenvolvimento de Sistemas no Grupo Unis. O site apresenta seu foco em desenvolvimento web e de softwares, os serviços que oferece, tecnologias com que trabalha, projetos em andamento e formas de contato.
+**MEU PORTIFOLIO PESSOAL**, sou estudante do quarto período de Análise e Desenvolvimento de Sistemas no Grupo Unis. O site apresenta seu foco em desenvolvimento web e de softwares, os serviços que oferece, tecnologias com que trabalha, projetos em andamento e formas de contato.
 
 ## Objetivo
 
-O LSZDev foi criado para dar contexto ao trabalho de Luis e facilitar o primeiro contato com pessoas e negócios que precisam construir ou melhorar sua presença digital. A página explica cada serviço e mostra os projetos e ferramentas utilizados, sem depender de uma aplicação de back-end.
+O LSZDev foi criado para dar contexto ao meu serviço e facilitar o primeiro contato com pessoas e negócios que precisam construir ou melhorar sua presença digital. A página explica cada serviço e mostra os projetos e ferramentas utilizados, sem depender de uma aplicação de back-end.
 
 ## Serviços apresentados
 
