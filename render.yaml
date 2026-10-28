@@ -2,9 +2,5 @@ services:
   - type: web
     name: lszdev-portfolio
     runtime: static
-    buildCommand: ""
+    buildCommand: echo "Static site; no build step required"
     staticPublishPath: .
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
