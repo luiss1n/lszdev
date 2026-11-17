@@ -63,3 +63,13 @@ body{background-color:#0e0d0f;background-image:radial-gradient(ellipse at 78% 12
 .site-footer .footer-bottom>a{min-height:44px;display:inline-flex;align-items:center;}
 @media(max-width:767px){.site-footer .footer-main,.site-footer .footer-bottom{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right));}.site-footer .footer-main{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px;padding-top:34px;padding-bottom:28px;}.footer-brand{grid-column:1/-1;}.site-footer .footer-bottom{align-items:flex-start;flex-direction:column;gap:6px;padding-block:14px;}}
 @media(max-width:399px){.site-footer .footer-main{gap:20px 12px;}.footer-column h2{font-size:12px;}.footer-column a{font-size:12px;}}
+
+/* Logos fornecidas para a marca e os cards de projetos */
+.wordmark{display:inline-flex;align-items:center;line-height:0;}
+.brand-logo{display:block;width:68px;height:68px;object-fit:contain;}
+.footer-brand .brand-logo{width:76px;height:76px;}
+.project-art-logo{position:absolute;z-index:1;top:8%;right:6%;width:clamp(92px,11vw,132px);height:auto;aspect-ratio:1;object-fit:contain;filter:drop-shadow(0 8px 20px #0007);}
+.project-art-logo-lsz{width:clamp(108px,13vw,150px);}
+.project-art-logo-conecta{border-radius:50%;}
+.project-art-logo-escultural{width:clamp(102px,12vw,140px);}
+@media(max-width:720px){.brand-logo{width:60px;height:60px;}.footer-brand .brand-logo{width:68px;height:68px;}.project-art-logo{width:112px;}.project-art-logo-lsz{width:126px;}.project-art-logo-escultural{width:118px;}}
