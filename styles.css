@@ -86,3 +86,8 @@ body{background-color:#0e0d0f;background-image:radial-gradient(ellipse at 78% 12
 .stack-tags span{min-height:48px;display:inline-flex;flex-direction:row;align-items:center;justify-content:center;gap:9px;padding:9px 13px;font:12px var(--sans);white-space:nowrap;}
 .stack-tags span img{width:20px;height:20px;flex:0 0 20px;}
 @media(max-width:767px){.stack-content h2{font-size:clamp(32px,9vw,42px);}.stack-tags{gap:8px;}.stack-tags span{min-height:44px;padding:8px 10px;font-size:12px;}.stack-tags span img{width:18px;height:18px;flex-basis:18px;}}
+
+.stack-tags span{transition:transform .22s ease,border-color .22s ease,background-color .22s ease,box-shadow .22s ease;}
+@media(hover:hover){.stack-tags span:hover{transform:translateY(-4px);border-color:#f0444c;background:#241519;box-shadow:0 8px 22px #f0444c25;}.stack-tags span:hover img{transform:scale(1.12);}}
+.stack-tags span img{transition:transform .22s ease;}
+@media(prefers-reduced-motion:reduce){.stack-tags span,.stack-tags span img{transition:none!important;}.stack-tags span:hover{transform:none;}.stack-tags span:hover img{transform:none;}}
