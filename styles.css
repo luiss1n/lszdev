@@ -73,3 +73,16 @@ body{background-color:#0e0d0f;background-image:radial-gradient(ellipse at 78% 12
 .project-art-logo-conecta{border-radius:50%;}
 .project-art-logo-escultural{width:clamp(102px,12vw,140px);}
 @media(max-width:720px){.brand-logo{width:60px;height:60px;}.footer-brand .brand-logo{width:68px;height:68px;}.project-art-logo{width:112px;}.project-art-logo-lsz{width:126px;}.project-art-logo-escultural{width:118px;}}
+
+/* Tecnologias agrupadas e alinhadas em fileiras centralizadas */
+.stack-section{display:block;text-align:center;}
+.stack-section>.section-label{justify-content:center;margin-bottom:34px;}
+.stack-content{max-width:none;margin-inline:auto;}
+.stack-content h2{margin:0 0 16px;}
+.stack-content>p{max-width:680px;margin:0 auto 36px;}
+.stack-group{margin-top:30px;}
+.stack-group-title{margin:0 0 14px;text-align:center;font:12px var(--mono);letter-spacing:1px;text-transform:uppercase;color:#fff;}
+.stack-tags{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:10px;margin:0 auto;}
+.stack-tags span{min-height:48px;display:inline-flex;flex-direction:row;align-items:center;justify-content:center;gap:9px;padding:9px 13px;font:12px var(--sans);white-space:nowrap;}
+.stack-tags span img{width:20px;height:20px;flex:0 0 20px;}
+@media(max-width:767px){.stack-content h2{font-size:clamp(32px,9vw,42px);}.stack-tags{gap:8px;}.stack-tags span{min-height:44px;padding:8px 10px;font-size:12px;}.stack-tags span img{width:18px;height:18px;flex-basis:18px;}}
