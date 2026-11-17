@@ -22,3 +22,44 @@ body{background-color:#0e0d0f;background-image:radial-gradient(ellipse at 78% 12
 /* Footer safe-area gutters: keep content inset even when full-width on any viewport */
 .site-footer .footer-main,.site-footer .footer-bottom{width:100%;max-width:1280px;margin-inline:auto;padding-left:max(32px,env(safe-area-inset-left));padding-right:max(32px,env(safe-area-inset-right));box-sizing:border-box}.site-footer .footer-main{padding-top:48px;padding-bottom:38px}.site-footer .footer-bottom{min-height:68px}@media(max-width:720px){.site-footer .footer-main,.site-footer .footer-bottom{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}.site-footer .footer-main{padding-top:36px;padding-bottom:30px}}
 .site-footer .footer-bottom{justify-content:flex-start;text-align:left}.site-footer .footer-bottom>span{display:block;text-align:left;margin:0}.site-footer .footer-bottom>a{margin-left:auto}@media(max-width:720px){.site-footer .footer-bottom{align-items:flex-start;flex-direction:column;gap:8px}.site-footer .footer-bottom>a{margin-left:0}}
+
+/* Cards de projetos: revelação suave e navegação por teclado */
+.project-grid{align-items:stretch;}
+.project-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+.project-card{min-width:0;overflow:hidden;}
+.project-card:focus-visible{outline:2px solid #ff646d;outline-offset:4px;}
+.project-art{position:relative;isolation:isolate;width:100%;aspect-ratio:1.55;min-height:190px;overflow:hidden;display:flex;align-items:flex-end;padding:20px;margin:0 0 20px;border:1px solid #ffffff22;background-color:#171114;background-size:cover;transition:background-size .5s ease;}
+.project-art:before,.project-art:after{content:"";position:absolute;z-index:-1;pointer-events:none;}
+.project-art:before{inset:0;background:linear-gradient(180deg,#09090b08 0%,#09090b20 38%,#09090be8 100%);}
+.project-art:after{inset:0;opacity:.5;background-image:linear-gradient(90deg,#ffffff0d 1px,transparent 1px),linear-gradient(#ffffff0d 1px,transparent 1px);background-size:32px 32px;mask-image:linear-gradient(135deg,#000 0%,transparent 74%);}
+.project-art-portfolio{background-image:radial-gradient(ellipse at 70% 25%,#6a1f2b 0,transparent 44%),linear-gradient(130deg,#281115,#101013 72%);}
+.project-art-portfolio:after{background-size:28px 28px;opacity:.38;}
+.project-art-conecta{background-image:radial-gradient(ellipse at 72% 18%,#344d6b 0,transparent 46%),linear-gradient(130deg,#101820,#111013 74%);}
+.project-art-conecta:after{background-image:radial-gradient(circle,#dce9ff66 1px,transparent 1.5px);background-size:24px 24px;mask-image:radial-gradient(ellipse at 75% 30%,#000 0,transparent 68%);}
+.project-art-escultural{background-image:radial-gradient(ellipse at 68% 20%,#a93039 0,transparent 39%),linear-gradient(130deg,#2b1015,#111013 74%);}
+.project-art-escultural:after{background-image:linear-gradient(110deg,transparent 0 42%,#ffffff14 42.2% 42.5%,transparent 42.7%),linear-gradient(70deg,transparent 0 54%,#ff68701c 54.2% 54.5%,transparent 54.7%);background-size:100% 100%;mask-image:linear-gradient(135deg,transparent 5%,#000 55%);}
+.project-art-content{position:relative;z-index:1;}
+.project-art-content p{margin:0 0 5px!important;color:#f4d5d8!important;font:12px var(--mono)!important;letter-spacing:1px;}
+.project-art-content h3{margin:0!important;color:#fff;font-size:clamp(22px,2.4vw,30px)!important;line-height:1.2;letter-spacing:-.7px;}
+.project-art-mark{position:absolute;top:20px;right:22px;color:#ffffffdb;font:600 clamp(38px,6vw,72px)/1 var(--sans);letter-spacing:-5px;text-shadow:0 8px 32px #0009;}
+.project-art-portfolio .project-art-mark{color:#ff656e;font:700 clamp(32px,4vw,48px)/1 var(--mono);letter-spacing:-4px;}
+.project-art-conecta .project-art-mark span{color:#9ac2f2;}
+.project-card>p{font-size:14px;line-height:1.8;}
+.project-skills{gap:7px;margin:0 0 20px;}
+.project-skills span{font-size:12px;padding:6px 9px;}
+.project-card>a{min-height:44px;display:inline-flex;align-items:center;margin-top:auto;font-size:13px;}
+@media(hover:hover){.project-grid:hover .project-card{opacity:.62;filter:blur(1px);transform:scale(.985);transition:opacity .25s,filter .25s,transform .25s,border-color .2s;}.project-grid:hover .project-card:hover{opacity:1;filter:none;transform:scale(1.015);z-index:1;}.project-grid:focus-within .project-card{opacity:.62;filter:blur(1px);transform:scale(.985);}.project-grid:focus-within .project-card:focus-within{opacity:1;filter:none;transform:scale(1.015);z-index:1;}}
+@media(max-width:900px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:767px){.project-grid{grid-template-columns:1fr;}}
+@media(prefers-reduced-motion:reduce){.project-grid:hover .project-card,.project-grid:hover .project-card:hover,.project-grid:focus-within .project-card,.project-grid:focus-within .project-card:focus-within{filter:none;transform:none;}}
+
+/* Rodapé fluido, com área de toque adequada e respeito às safe areas */
+.site-footer{display:block;min-height:0;}
+.site-footer .footer-main,.site-footer .footer-bottom{width:100%;max-width:1280px;margin-inline:auto;padding-left:max(32px,env(safe-area-inset-left));padding-right:max(32px,env(safe-area-inset-right));}
+.site-footer .footer-main{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:30px;padding-top:44px;padding-bottom:36px;}
+.footer-brand,.footer-column{min-width:0;}
+.footer-column a{min-height:44px;display:inline-flex;align-items:center;line-height:1.5;overflow-wrap:anywhere;}
+.site-footer .footer-bottom{min-height:68px;gap:16px;}
+.site-footer .footer-bottom>a{min-height:44px;display:inline-flex;align-items:center;}
+@media(max-width:767px){.site-footer .footer-main,.site-footer .footer-bottom{padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right));}.site-footer .footer-main{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 18px;padding-top:34px;padding-bottom:28px;}.footer-brand{grid-column:1/-1;}.site-footer .footer-bottom{align-items:flex-start;flex-direction:column;gap:6px;padding-block:14px;}}
+@media(max-width:399px){.site-footer .footer-main{gap:20px 12px;}.footer-column h2{font-size:12px;}.footer-column a{font-size:12px;}}
