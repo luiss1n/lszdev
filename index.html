@@ -1,154 +1,560 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#09090b">
-  <meta name="description" content="A LSZDEV desenvolve sites, landing pages, sistemas e soluções web responsivas, com foco em clareza, qualidade e na identidade de cada projeto.">
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "@id": "https://lszdev.com.br/#website",
-      "url": "https://lszdev.com.br/",
-      "name": "LSZDEV",
-      "alternateName": [
-        "LSZDev",
-        "lszdev.com.br"
-      ],
-      "description": "Desenvolvimento de sites, landing pages, sistemas e soluções web responsivas.",
-      "inLanguage": "pt-BR",
-      "creator": {
-        "@id": "https://lszdev.com.br/#person"
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#09090b" />
+    <meta
+      name="description"
+      content="A LSZDEV desenvolve sites, landing pages, sistemas e soluções web responsivas, com foco em clareza, qualidade e na identidade de cada projeto."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://lszdev.com.br/#website",
+            "url": "https://lszdev.com.br/",
+            "name": "LSZDEV",
+            "alternateName": ["LSZDev", "lszdev.com.br"],
+            "description": "Desenvolvimento de sites, landing pages, sistemas e soluções web responsivas.",
+            "inLanguage": "pt-BR",
+            "creator": {
+              "@id": "https://lszdev.com.br/#person"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://lszdev.com.br/#person",
+            "name": "Luis Henrique",
+            "url": "https://lszdev.com.br/",
+            "sameAs": [
+              "https://github.com/LUISS1N",
+              "https://instagram.com/luisshenriqu3"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://lszdev.com.br/#webpage",
+            "url": "https://lszdev.com.br/",
+            "name": "LSZDEV | Desenvolvimento Web e Software",
+            "isPartOf": {
+              "@id": "https://lszdev.com.br/#website"
+            },
+            "about": {
+              "@id": "https://lszdev.com.br/#person"
+            },
+            "inLanguage": "pt-BR"
+          }
+        ]
       }
-    },
-    {
-      "@type": "Person",
-      "@id": "https://lszdev.com.br/#person",
-      "name": "Luis Henrique",
-      "url": "https://lszdev.com.br/",
-      "sameAs": [
-        "https://github.com/LUISS1N",
-        "https://instagram.com/luisshenriqu3"
-      ]
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://lszdev.com.br/#webpage",
-      "url": "https://lszdev.com.br/",
-      "name": "LSZDEV | Desenvolvimento Web e Software",
-      "isPartOf": {
-        "@id": "https://lszdev.com.br/#website"
-      },
-      "about": {
-        "@id": "https://lszdev.com.br/#person"
-      },
-      "inLanguage": "pt-BR"
-    }
-  ]
-}
-  </script>
-  <link rel="canonical" href="https://lszdev.com.br/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="LSZDEV">
-  <meta property="og:title" content="LSZDEV | Desenvolvimento Web e Software">
-  <meta property="og:description" content="Desenvolvimento de sites, landing pages, sistemas e soluções web responsivas, com foco em clareza e qualidade.">
-  <meta property="og:url" content="https://lszdev.com.br/">
-  <meta property="og:image" content="https://lszdev.com.br/assets/logo-lszdev.png">
-  <meta property="og:image:alt" content="Logotipo da LSZDEV">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="LSZDEV | Desenvolvimento Web e Software">
-  <meta name="twitter:description" content="Desenvolvimento de sites, landing pages, sistemas e soluções web responsivas, com foco em clareza e qualidade.">
-  <meta name="twitter:image" content="https://lszdev.com.br/assets/logo-lszdev.png">
-  <meta name="twitter:image:alt" content="Logotipo da LSZDEV">
-  <title>LSZDEV | Desenvolvimento Web e Software</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="styles.css?v=805d405cdfd5">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class="reading-progress" aria-hidden="true"></div>
-  <canvas class="particles" aria-hidden="true"></canvas>
-  <header class="site-header">
-    <a class="wordmark" href="#inicio" aria-label="LSZDev, início"><img class="brand-logo" src="assets/logo-lszdev.png" alt=""></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Abrir menu"><span></span><span></span></button>
-    <nav id="navigation" class="navigation" aria-label="Navegação principal">
-      <a href="#sobre">Sobre</a><a href="#trabalho">O que faço</a><a href="#stacks">Stacks</a><a href="#projetos">Projetos</a>
-      <a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
-    </nav>
-  </header>
-  <main id="inicio">
-    <section class="hero wrap">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="status-dot"></span> DESENVOLVIMENTO WEB E DE SOFTWARES</p>
-        <h1>Uma presença digital<br>com <span>intenção.</span></h1>
-        <p class="hero-intro">Sites claros, bem construídos e prontos para apresentar o seu negócio ao mundo.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#trabalho">Conheça meu trabalho <span aria-hidden="true">↘</span></a><a class="text-link" href="#sobre">Um pouco sobre mim <span aria-hidden="true">→</span></a></div>
-        <div class="hero-note"><span class="note-line"></span> Ideias boas merecem uma presença à altura.</div>
+    </script>
+    <link rel="canonical" href="https://lszdev.com.br/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LSZDEV" />
+    <meta
+      property="og:title"
+      content="LSZDEV | Desenvolvimento Web e Software"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvimento de sites, landing pages, sistemas e soluções web responsivas, com foco em clareza e qualidade."
+    />
+    <meta property="og:url" content="https://lszdev.com.br/" />
+    <meta
+      property="og:image"
+      content="https://lszdev.com.br/assets/logo-lszdev.png"
+    />
+    <meta property="og:image:alt" content="Logotipo da LSZDEV" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="LSZDEV | Desenvolvimento Web e Software"
+    />
+    <meta
+      name="twitter:description"
+      content="Desenvolvimento de sites, landing pages, sistemas e soluções web responsivas, com foco em clareza e qualidade."
+    />
+    <meta
+      name="twitter:image"
+      content="https://lszdev.com.br/assets/logo-lszdev.png"
+    />
+    <meta name="twitter:image:alt" content="Logotipo da LSZDEV" />
+    <title>LSZDEV | Desenvolvimento Web e Software</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="styles.css?v=4e153a7e25d0" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true"></div>
+    <canvas class="particles" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <a class="wordmark" href="#inicio" aria-label="LSZDev, início"
+        ><img class="brand-logo" src="assets/logo-lszdev.png" alt=""
+      /></a>
+      <button
+        class="menu-toggle"
+        aria-expanded="false"
+        aria-controls="navigation"
+        aria-label="Abrir menu"
+      >
+        <span></span><span></span>
+      </button>
+      <nav id="navigation" class="navigation" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a><a href="#trabalho">O que faço</a
+        ><a href="#stacks">Stacks</a><a href="#projetos">Projetos</a>
+        <a class="nav-contact" href="#contato"
+          >Vamos conversar <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="inicio">
+      <section class="hero wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="status-dot"></span> DESENVOLVIMENTO WEB E DE SOFTWARES
+          </p>
+          <h1>Uma presença digital<br />com <span>intenção.</span></h1>
+          <p class="hero-intro">
+            Sites claros, bem construídos e prontos para apresentar o seu
+            negócio ao mundo.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#trabalho"
+              >Conheça meu trabalho <span aria-hidden="true">↘</span></a
+            ><a class="text-link" href="#sobre"
+              >Um pouco sobre mim <span aria-hidden="true">→</span></a
+            >
+          </div>
+          <div class="hero-note">
+            <span class="note-line"></span> Ideias boas merecem uma presença à
+            altura.
+          </div>
+        </div>
+        <a class="scroll-cue" href="#sobre" aria-label="Role para conhecer mais"
+          ><span></span> ROLE PARA EXPLORAR</a
+        >
+      </section>
+      <section class="intro-section section wrap" id="sobre">
+        <div class="section-label reveal"><span>01</span> SOBRE MIM</div>
+        <div class="intro-content reveal">
+          <h2>Olá, eu sou o <span>Luis Henrique.</span></h2>
+          <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas no Grupo
+            Unis, atualmente no quarto período. Meu foco é desenvolvimento web e
+            criar experiências digitais claras e funcionais.
+          </p>
+          <p>
+            Gosto de transformar ideias em sites, cuidando tanto da construção
+            quanto da qualidade em diferentes telas.
+          </p>
+          <a
+            class="text-link"
+            href="https://github.com/LUISS1N"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Veja meu GitHub <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+      <section
+        class="services-section section"
+        id="trabalho"
+        aria-labelledby="services-title"
+      >
+        <div class="wrap services-panel">
+          <div class="section-heading reveal">
+            <div class="section-label"><span>02</span> COMO POSSO AJUDAR</div>
+            <h2 id="services-title">
+              O que posso construir<br /><span>para você.</span>
+            </h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card reveal">
+              <span class="service-number">01 / SERVIÇO</span>
+              <h3>Landing pages</h3>
+              <p>
+                Uma página para apresentar sua oferta com clareza e facilitar o
+                contato com seu negócio.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-number">02 / SERVIÇO</span>
+              <h3>Desenvolvimento web</h3>
+              <p>
+                Sites claros, fáceis de navegar e adaptados ao conteúdo e à
+                identidade do seu negócio.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-number">03 / SERVIÇO</span>
+              <h3>Softwares e sistemas</h3>
+              <p>
+                Ferramentas para organizar informações e simplificar rotinas,
+                planejadas para as necessidades do seu projeto.
+              </p>
+            </article>
+            <article class="service-card reveal">
+              <span class="service-number">04 / SERVIÇO</span>
+              <h3>Qualidade e testes</h3>
+              <p>
+                Revisão de navegação, links e formulários, com atenção ao
+                funcionamento em diferentes telas.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="stack-section section" id="stacks">
+        <div class="wrap">
+          <div class="section-label reveal">
+            <span>03</span> FERRAMENTAS & PRÁTICA
+          </div>
+          <div class="stack-content reveal">
+            <h2>Tecnologias por<br /><span>etapa do projeto.</span></h2>
+            <p>
+              Tecnologias presentes nos projetos do portfólio: da interface às
+              integrações e publicação.
+            </p>
+            <div class="stack-group">
+              <h3 class="stack-group-title">Front-end</h3>
+              <div class="stack-tags" aria-label="Tecnologias de front-end">
+                <span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/html5.svg"
+                    alt=""
+                    loading="lazy"
+                  />HTML5</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                    alt=""
+                    loading="lazy"
+                  />CSS3</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/javascript.svg"
+                    alt=""
+                    loading="lazy"
+                  />JavaScript</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/typescript.svg"
+                    alt=""
+                    loading="lazy"
+                  />TypeScript</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/react.svg"
+                    alt=""
+                    loading="lazy"
+                  />React</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nextdotjs.svg"
+                    alt=""
+                    loading="lazy"
+                  />Next.js</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/tailwindcss.svg"
+                    alt=""
+                    loading="lazy"
+                  />Tailwind CSS</span
+                >
+              </div>
+            </div>
+            <div class="stack-group">
+              <h3 class="stack-group-title">Back-end e APIs</h3>
+              <div class="stack-tags" aria-label="Tecnologias de back-end">
+                <span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nodedotjs.svg"
+                    alt=""
+                    loading="lazy"
+                  />Node.js</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nestjs.svg"
+                    alt=""
+                    loading="lazy"
+                  />NestJS</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/openapiinitiative.svg"
+                    alt=""
+                    loading="lazy"
+                  />APIs REST</span
+                >
+              </div>
+            </div>
+            <div class="stack-group">
+              <h3 class="stack-group-title">Banco de dados e ORM</h3>
+              <div class="stack-tags" aria-label="Banco de dados e ORM">
+                <span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/postgresql.svg"
+                    alt=""
+                    loading="lazy"
+                  />PostgreSQL</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/prisma.svg"
+                    alt=""
+                    loading="lazy"
+                  />Prisma</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/supabase.svg"
+                    alt=""
+                    loading="lazy"
+                  />Supabase</span
+                >
+              </div>
+            </div>
+            <div class="stack-group">
+              <h3 class="stack-group-title">Integrações e publicação</h3>
+              <div class="stack-tags" aria-label="Integrações e publicação">
+                <span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/googlemaps.svg"
+                    alt=""
+                    loading="lazy"
+                  />Google Maps</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg"
+                    alt=""
+                    loading="lazy"
+                  />WhatsApp</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/render.svg"
+                    alt=""
+                    loading="lazy"
+                  />Render</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/railway.svg"
+                    alt=""
+                    loading="lazy"
+                  />Railway</span
+                ><span
+                  ><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/git.svg"
+                    alt=""
+                    loading="lazy"
+                  />Git</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects-section section" id="projetos">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <div class="section-label"><span>04</span> PROJETOS</div>
+            <h2>Projetos em <span>destaque.</span></h2>
+          </div>
+          <div
+            class="project-grid"
+            role="list"
+            aria-label="Projetos desenvolvidos"
+          >
+            <article class="project-card reveal" role="listitem" tabindex="0">
+              <div class="project-art project-art-portfolio" aria-hidden="true">
+                <div class="project-art-content">
+                  <p>PORTFÓLIO DIGITAL</p>
+                  <h3>LSZDev</h3>
+                </div>
+                <img
+                  class="project-art-logo project-art-logo-lsz"
+                  src="assets/logo-lszdev.png"
+                  alt=""
+                />
+              </div>
+              <p>
+                Meu espaço profissional para apresentar minha trajetória, os
+                serviços que estudo e desenvolvo, minhas tecnologias e projetos.
+              </p>
+              <div class="project-skills">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a
+                href="https://lszdev.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Visitar o portfólio <span>↗</span></a
+              >
+            </article>
+            <article class="project-card reveal" role="listitem" tabindex="0">
+              <div class="project-art project-art-conecta" aria-hidden="true">
+                <div class="project-art-content">
+                  <p>PROJETO ACADÊMICO</p>
+                  <h3>Conecta Unis</h3>
+                </div>
+                <img
+                  class="project-art-logo project-art-logo-conecta"
+                  src="assets/logo-conecta-unis.jpeg"
+                  alt=""
+                />
+              </div>
+              <p>
+                Plataforma em desenvolvimento para aproximar estudantes,
+                egressos e empresas de vagas, eventos e oportunidades de
+                carreira.
+              </p>
+              <div class="project-skills">
+                <span>Next.js</span><span>React</span><span>TypeScript</span
+                ><span>Tailwind CSS</span><span>NestJS</span><span>Node.js</span
+                ><span>PostgreSQL</span><span>Prisma</span>
+              </div>
+              <a
+                href="https://github.com/luiss1n/conecta-unis-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver repositório no GitHub <span>↗</span></a
+              >
+            </article>
+            <article class="project-card reveal" role="listitem" tabindex="0">
+              <div
+                class="project-art project-art-escultural"
+                aria-hidden="true"
+              >
+                <div class="project-art-content">
+                  <p>SITE PARA ACADEMIA</p>
+                  <h3>Escultural Fitness</h3>
+                </div>
+                <img
+                  class="project-art-logo project-art-logo-escultural"
+                  src="assets/logo-escultural-fitness.png"
+                  alt=""
+                />
+              </div>
+              <p>
+                Site da academia com unidades em Jesuânia e Olímpio Noronha,
+                apresentando modalidades, equipe, horários, planos e formas de
+                contato.
+              </p>
+              <div class="project-skills">
+                <span>HTML5</span><span>CSS3</span><span>JavaScript</span
+                ><span>Google Maps</span>
+              </div>
+              <a
+                href="https://github.com/luiss1n/EsculturalFitness"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Ver projeto no GitHub <span>↗</span></a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section section" id="contato">
+        <div class="wrap contact-inner reveal">
+          <div class="section-label"><span>05</span> PRÓXIMO PASSO</div>
+          <h2>Seu projeto começa<br />com uma <span>conversa.</span></h2>
+          <p>
+            Me conte o que você está planejando. Vamos entender juntos o melhor
+            caminho para sua presença digital.
+          </p>
+          <div class="contact-links">
+            <a
+              href="https://github.com/LUISS1N"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/github.svg"
+                alt=""
+                aria-hidden="true"
+              />GitHub <span>↗</span></a
+            ><a
+              href="https://wa.me/35998796701"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg"
+                alt=""
+                aria-hidden="true"
+              />WhatsApp <span>↗</span></a
+            ><a
+              href="https://instagram.com/luisshenriqu3"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/instagram.svg"
+                alt=""
+                aria-hidden="true"
+              />Instagram <span>↗</span></a
+            ><a
+              href="https://discord.gg/6MEn5xah"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/discord.svg"
+                alt=""
+                aria-hidden="true"
+              />Discord <span>↗</span></a
+            >
+          </div>
+          <p class="contact-note">
+            Me encontre nas redes ou fale comigo pelo canal que preferir.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main wrap">
+        <div class="footer-brand">
+          <a class="wordmark" href="#inicio" aria-label="LSZDev, início"
+            ><img class="brand-logo" src="assets/logo-lszdev.png" alt=""
+          /></a>
+          <p>Desenvolvimento web e de softwares com intenção.</p>
+        </div>
+        <nav class="footer-column" aria-label="Navegação">
+          <h2>Navegação</h2>
+          <a href="#sobre">Sobre mim</a><a href="#trabalho">Como posso ajudar</a
+          ><a href="#stacks">Tecnologias</a><a href="#projetos">Projetos</a>
+        </nav>
+        <nav class="footer-column" aria-label="Serviços">
+          <h2>Serviços</h2>
+          <a href="#trabalho">Landing pages</a
+          ><a href="#trabalho">Desenvolvimento web</a
+          ><a href="#trabalho">Qualidade (QA)</a
+          ><a href="#stacks">UI/UX e ferramentas</a>
+        </nav>
+        <div class="footer-column">
+          <h2>Contato</h2>
+          <a
+            href="https://wa.me/35998796701"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          ><a
+            href="https://instagram.com/luisshenriqu3"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          ><a
+            href="https://discord.gg/7hRntSpz"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Discord</a
+          ><a
+            href="https://github.com/LUISS1N"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </div>
       </div>
-      <a class="scroll-cue" href="#sobre" aria-label="Role para conhecer mais"><span></span> ROLE PARA EXPLORAR</a>
-    </section>
-    <section class="intro-section section wrap" id="sobre">
-      <div class="section-label reveal"><span>01</span> SOBRE MIM</div>
-      <div class="intro-content reveal"><h2>Olá, eu sou o <span>Luis Henrique.</span></h2><p>Sou estudante de Análise e Desenvolvimento de Sistemas no Grupo Unis, atualmente no quarto período. Meu foco é desenvolvimento web e criar experiências digitais claras e funcionais.</p><p>Gosto de transformar ideias em sites, cuidando tanto da construção quanto da qualidade em diferentes telas.</p><a class="text-link" href="https://github.com/LUISS1N" target="_blank" rel="noopener noreferrer">Veja meu GitHub <span aria-hidden="true">↗</span></a></div>
-    </section>
-    <section class="services-section section" id="trabalho" aria-labelledby="services-title"><div class="wrap services-panel">
-      <div class="section-heading reveal">
-        <div class="section-label"><span>02</span> COMO POSSO AJUDAR</div>
-        <h2 id="services-title">O que posso construir<br><span>para você.</span></h2>
+      <div class="footer-bottom wrap">
+        <span
+          >© 2026 LSZDev · Luis Henrique. Todos os direitos reservados.</span
+        ><a href="#inicio">Voltar ao topo ↑</a>
       </div>
-      <div class="service-grid">
-        <article class="service-card reveal">
-          <span class="service-number">01 / SERVIÇO</span>
-          <h3>Landing pages</h3>
-          <p>Uma página para apresentar sua oferta com clareza e facilitar o contato com seu negócio.</p>
-        </article>
-        <article class="service-card reveal">
-          <span class="service-number">02 / SERVIÇO</span>
-          <h3>Desenvolvimento web</h3>
-          <p>Sites claros, fáceis de navegar e adaptados ao conteúdo e à identidade do seu negócio.</p>
-        </article>
-        <article class="service-card reveal">
-          <span class="service-number">03 / SERVIÇO</span>
-          <h3>Softwares e sistemas</h3>
-          <p>Ferramentas para organizar informações e simplificar rotinas, planejadas para as necessidades do seu projeto.</p>
-        </article>
-        <article class="service-card reveal">
-          <span class="service-number">04 / SERVIÇO</span>
-          <h3>Qualidade e testes</h3>
-          <p>Revisão de navegação, links e formulários, com atenção ao funcionamento em diferentes telas.</p>
-        </article>
-      </div>
-    </div></section>
-    <section class="stack-section section" id="stacks"><div class="wrap">
-      <div class="section-label reveal"><span>03</span> FERRAMENTAS & PRÁTICA</div>
-      <div class="stack-content reveal"><h2>Tecnologias por<br><span>etapa do projeto.</span></h2><p>Tecnologias presentes nos projetos do portfólio: da interface às integrações e publicação.</p>
-        <div class="stack-group"><h3 class="stack-group-title">Front-end</h3><div class="stack-tags" aria-label="Tecnologias de front-end">
-          <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/html5.svg" alt="" loading="lazy">HTML5</span><span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" loading="lazy">CSS3</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/javascript.svg" alt="" loading="lazy">JavaScript</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/typescript.svg" alt="" loading="lazy">TypeScript</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/react.svg" alt="" loading="lazy">React</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nextdotjs.svg" alt="" loading="lazy">Next.js</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/tailwindcss.svg" alt="" loading="lazy">Tailwind CSS</span>
-        </div></div>
-        <div class="stack-group"><h3 class="stack-group-title">Back-end e APIs</h3><div class="stack-tags" aria-label="Tecnologias de back-end">
-          <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nodedotjs.svg" alt="" loading="lazy">Node.js</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/nestjs.svg" alt="" loading="lazy">NestJS</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/openapiinitiative.svg" alt="" loading="lazy">APIs REST</span>
-        </div></div>
-        <div class="stack-group"><h3 class="stack-group-title">Banco de dados e ORM</h3><div class="stack-tags" aria-label="Banco de dados e ORM">
-          <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/postgresql.svg" alt="" loading="lazy">PostgreSQL</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/prisma.svg" alt="" loading="lazy">Prisma</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/supabase.svg" alt="" loading="lazy">Supabase</span>
-        </div></div>
-        <div class="stack-group"><h3 class="stack-group-title">Integrações e publicação</h3><div class="stack-tags" aria-label="Integrações e publicação">
-          <span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/googlemaps.svg" alt="" loading="lazy">Google Maps</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg" alt="" loading="lazy">WhatsApp</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/render.svg" alt="" loading="lazy">Render</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/railway.svg" alt="" loading="lazy">Railway</span><span><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/git.svg" alt="" loading="lazy">Git</span>
-        </div></div>
-      </div>
-    </div></section>
-    <section class="projects-section section" id="projetos"><div class="wrap">
-      <div class="section-heading reveal"><div class="section-label"><span>04</span> PROJETOS</div><h2>Projetos em <span>destaque.</span></h2></div>
-      <div class="project-grid" role="list" aria-label="Projetos desenvolvidos">
-        <article class="project-card reveal" role="listitem" tabindex="0"><div class="project-art project-art-portfolio" aria-hidden="true"><div class="project-art-content"><p>PORTFÓLIO DIGITAL</p><h3>LSZDev</h3></div><img class="project-art-logo project-art-logo-lsz" src="assets/logo-lszdev.png" alt=""></div><p>Meu espaço profissional para apresentar minha trajetória, os serviços que estudo e desenvolvo, minhas tecnologias e projetos.</p><div class="project-skills"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="https://lszdev.com.br/" target="_blank" rel="noopener noreferrer">Visitar o portfólio <span>↗</span></a></article>
-        <article class="project-card reveal" role="listitem" tabindex="0"><div class="project-art project-art-conecta" aria-hidden="true"><div class="project-art-content"><p>PROJETO ACADÊMICO</p><h3>Conecta Unis</h3></div><img class="project-art-logo project-art-logo-conecta" src="assets/logo-conecta-unis.jpeg" alt=""></div><p>Plataforma em desenvolvimento para aproximar estudantes, egressos e empresas de vagas, eventos e oportunidades de carreira.</p><div class="project-skills"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span><span>NestJS</span><span>Node.js</span><span>PostgreSQL</span><span>Prisma</span></div><a href="https://github.com/luiss1n/conecta-unis-1" target="_blank" rel="noopener noreferrer">Ver repositório no GitHub <span>↗</span></a></article>
-        <article class="project-card reveal" role="listitem" tabindex="0"><div class="project-art project-art-escultural" aria-hidden="true"><div class="project-art-content"><p>SITE PARA ACADEMIA</p><h3>Escultural Fitness</h3></div><img class="project-art-logo project-art-logo-escultural" src="assets/logo-escultural-fitness.png" alt=""></div><p>Site da academia com unidades em Jesuânia e Olímpio Noronha, apresentando modalidades, equipe, horários, planos e formas de contato.</p><div class="project-skills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Google Maps</span></div><a href="https://github.com/luiss1n/EsculturalFitness" target="_blank" rel="noopener noreferrer">Ver projeto no GitHub <span>↗</span></a></article>
-      </div>
-    </div></section>
-    <section class="contact-section section" id="contato"><div class="wrap contact-inner reveal"><div class="section-label"><span>05</span> PRÓXIMO PASSO</div><h2>Seu projeto começa<br>com uma <span>conversa.</span></h2><p>Me conte o que você está planejando. Vamos entender juntos o melhor caminho para sua presença digital.</p><div class="contact-links"><a href="https://github.com/LUISS1N" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/github.svg" alt="" aria-hidden="true">GitHub <span>↗</span></a><a href="https://wa.me/35998796701" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg" alt="" aria-hidden="true">WhatsApp <span>↗</span></a><a href="https://instagram.com/luisshenriqu3" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/instagram.svg" alt="" aria-hidden="true">Instagram <span>↗</span></a><a href="https://discord.gg/6MEn5xah" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/discord.svg" alt="" aria-hidden="true">Discord <span>↗</span></a></div><p class="contact-note">Me encontre nas redes ou fale comigo pelo canal que preferir.</p></div></section>
-  </main>
-  <footer class="site-footer"><div class="footer-main wrap"><div class="footer-brand"><a class="wordmark" href="#inicio" aria-label="LSZDev, início"><img class="brand-logo" src="assets/logo-lszdev.png" alt=""></a><p>Desenvolvimento web e de softwares com intenção.</p></div><nav class="footer-column" aria-label="Navegação"><h2>Navegação</h2><a href="#sobre">Sobre mim</a><a href="#trabalho">Como posso ajudar</a><a href="#stacks">Tecnologias</a><a href="#projetos">Projetos</a></nav><nav class="footer-column" aria-label="Serviços"><h2>Serviços</h2><a href="#trabalho">Landing pages</a><a href="#trabalho">Desenvolvimento web</a><a href="#trabalho">Qualidade (QA)</a><a href="#stacks">UI/UX e ferramentas</a></nav><div class="footer-column"><h2>Contato</h2><a href="https://wa.me/35998796701" target="_blank" rel="noopener noreferrer">WhatsApp</a><a href="https://instagram.com/luisshenriqu3" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://discord.gg/7hRntSpz" target="_blank" rel="noopener noreferrer">Discord</a><a href="https://github.com/LUISS1N" target="_blank" rel="noopener noreferrer">GitHub</a></div></div><div class="footer-bottom wrap"><span>© 2026 LSZDev · Luis Henrique. Todos os direitos reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div></footer>
-</body>
+    </footer>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 # LSZDev
 
-**MEU PORTIFOLIO PESSOAL**, sou estudante do quarto período de Análise e Desenvolvimento de Sistemas no Grupo Unis. O site apresenta seu foco em desenvolvimento web e de softwares, os serviços que oferece, tecnologias com que trabalha, projetos em andamento e formas de contato.
+Este é meu portfólio pessoal. Sou estudante do quarto período de Análise e Desenvolvimento de Sistemas no Grupo Unis. O site apresenta meu foco em desenvolvimento web e de softwares, os serviços que oferece, tecnologias com que trabalha, projetos em andamento e formas de contato.
 
 ## Objetivo
 
@@ -15,13 +15,16 @@ O LSZDev foi criado para dar contexto ao meu serviço e facilitar o primeiro con
 
 ## Projetos
 
-O portfólio destaca a própria página LSZDev e o **Conecta Unis**, projeto acadêmico em desenvolvimento para aproximar estudantes, egressos e empresas de oportunidades de emprego, estágio, eventos e desenvolvimento profissional. Também reserva espaço para projetos futuros.
+A página apresenta LSZDev, Conecta Unis e Escultural Fitness.
 
-## Tecnologias e ferramentas
+## Tecnologias apresentadas
 
-As ferramentas estão agrupadas de acordo com a etapa em que são utilizadas:
+- Interface: HTML5, CSS3, JavaScript, TypeScript, React, Next.js e Tailwind CSS.
+- Back-end e APIs: Node.js, NestJS e APIs REST.
+- Banco de dados e ORM: PostgreSQL, Prisma e Supabase.
+- Integrações e publicação: Google Maps, WhatsApp, Render, Railway e Git.
 
-### Interface e experiência
+## Interface e experiência
 
 - **HTML:** organiza o conteúdo e a estrutura das páginas.
 - **CSS:** define a apresentação visual, o layout e a adaptação a diferentes telas.
@@ -55,7 +58,7 @@ As tecnologias listadas representam ferramentas estudadas e utilizadas nos proje
 
 ## Implementação
 
-O site é uma página estática implementada com HTML, CSS e JavaScript, sem dependências de build ou serviço back-end próprio. Os ícones de tecnologias e redes são carregados do Simple Icons via jsDelivr.
+O site é uma página estática implementada com HTML, CSS e JavaScript, sem dependências de build ou serviço back-end próprio. Os ícones de tecnologias e redes são carregados do Simple Icons e do Devicon via jsDelivr.
 
 O arquivo `render.yaml` descreve a publicação como Static Site no Render, servindo os arquivos da raiz do repositório.
 
