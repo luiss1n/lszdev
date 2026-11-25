@@ -114,3 +114,19 @@ body{isolation:isolate;}
   .service-card{padding:24px;}
   .service-card .service-number{margin-bottom:20px;}
 }
+
+/* Fundo contínuo de tecnologias: largura total e transições suaves. */
+.stack-section{position:relative;isolation:isolate;border-bottom:0;}
+.stack-section::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:radial-gradient(ellipse at 50% 22%,#731b29 0%,#250e15 48%,#09090b 90%);
+  mask-image:linear-gradient(to bottom,transparent,#000 18%,#000 76%,transparent);
+}
+.stack-section>.wrap>.section-label{justify-content:center;margin-bottom:34px;}
+.stack-section .stack-tags span{background:rgb(0 0 0 / 40%);}
+.stack-section .stack-content h2 span{background:none;color:#ff747d;}
+@media(hover:hover){.stack-section .stack-tags span:hover{background:#241519;}}
