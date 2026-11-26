@@ -150,9 +150,7 @@ button {
 .section h2 span,
 .section-heading h2 span,
 .contact-inner h2 span {
-  background: linear-gradient(105deg, #fa696c, #c51f30 75%);
-  background-clip: text;
-  color: transparent;
+  color: var(--red);
 }
 .hero-intro {
   max-width: 440px;
@@ -563,21 +561,6 @@ body {
   font-size: 11px !important;
   color: #aaa0a5 !important;
 }
-.hero h1 span {
-  background: linear-gradient(110deg, #ff515e, #fff 50%, #ef3445 80%, #ff7180);
-  background-size: 260% 100%;
-  background-clip: text;
-  color: transparent;
-  animation: intention-flow 5s ease-in-out infinite alternate;
-}
-@keyframes intention-flow {
-  from {
-    background-position: 0% 50%;
-  }
-  to {
-    background-position: 100% 50%;
-  }
-}
 .contact-links a {
   display: inline-flex;
   align-items: center;
@@ -591,12 +574,6 @@ body {
 }
 .contact-links a span {
   margin-left: 2px;
-}
-@media (prefers-reduced-motion: reduce) {
-  .hero h1 span {
-    animation: none;
-    background-position: 50% 50%;
-  }
 }
 .stack-tags span img {
   filter: brightness(0) invert(1);
