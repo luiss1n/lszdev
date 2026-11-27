@@ -887,6 +887,11 @@ body {
     radial-gradient(ellipse at 68% 20%, #a93039 0, transparent 39%),
     linear-gradient(130deg, #2b1015, #111013 74%);
 }
+.project-art-bride-car {
+  background-image:
+    radial-gradient(ellipse at 72% 18%, #702137 0, transparent 46%),
+    linear-gradient(130deg, #191125, #111013 74%);
+}
 .project-art-escultural:after {
   background-image:
     linear-gradient(
@@ -1090,6 +1095,13 @@ body {
 }
 .project-art-logo-conecta {
   border-radius: 50%;
+}
+.project-art-logo-bride-car {
+  top: 4%;
+  width: 104px;
+  padding: 4px;
+  background: #fff;
+  border-radius: 8px;
 }
 .project-art-logo-escultural {
   width: clamp(102px, 12vw, 140px);
